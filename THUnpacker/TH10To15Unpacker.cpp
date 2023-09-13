@@ -5,7 +5,7 @@ using namespace std;
 
 // TH10To16Unpacker //////////////////////////////////////////////////////////////
 
-TH10To16Unpacker::TH10To16Unpacker(ifstream& _f, wchar_t* _dirName, DWORD _magicNumber, const BYTE* _decParam) :
+TH10To16Unpacker::TH10To16Unpacker(ifstream& _f,const wchar_t* _dirName, DWORD _magicNumber, const BYTE* _decParam) :
 	THUnpackerBase(_f),
 	magicNumber(_magicNumber),
 	decParam(_decParam)
