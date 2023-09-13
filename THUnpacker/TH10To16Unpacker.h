@@ -9,7 +9,7 @@ protected:
 	const BYTE* decParam;
 
 public:
-	TH10To16Unpacker(std::ifstream& _f, wchar_t* _dirName, DWORD _magicNumber, const BYTE* _decParam);
+	TH10To16Unpacker(std::ifstream& _f,const wchar_t* _dirName, DWORD _magicNumber, const BYTE* _decParam);
 	virtual ~TH10To16Unpacker() = default;
 
 protected:
